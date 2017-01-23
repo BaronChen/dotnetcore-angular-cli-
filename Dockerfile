@@ -17,6 +17,6 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
     apt-get install -y build-essential && \
     apt-get clean
     
-RUN npm i -g angular-cli
-RUN npm i -g azure-cli
+RUN npm i angular-cli -g --no-optional
+RUN npm i azure-cli -g --no-optional
 
