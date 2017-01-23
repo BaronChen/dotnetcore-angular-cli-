@@ -1,4 +1,4 @@
-FROM microsoft/dotnet
+FROM microsoft/dotnet:onbuild
 MAINTAINER Baron Chen <baronchen.github.io>
 
 ARG CHROME_VERSION="google-chrome-stable"
